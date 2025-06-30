@@ -1,0 +1,16 @@
+.qr-code-component {
+    padding: 16px;
+    width: 25%;
+    height: 100%;
+    border-radius: 26px;
+}
+
+.qr-code-component__text-wrapper {
+    padding: 14px;
+    text-align: center;
+}
+
+.qr-code-component img {
+    width: 100%;
+    border-radius: 10px;
+}

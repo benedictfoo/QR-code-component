@@ -1,0 +1,15 @@
+.main__centered-children {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-main {
+    background-color: rgb(213, 225, 239);
+}
+
+.bg-white {
+    background-color: white;
+}
