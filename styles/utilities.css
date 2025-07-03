@@ -13,3 +13,8 @@
 .bg-white {
     background-color: white;
 }
+
+.plain-link {
+    text-decoration: none;
+    color: unset;
+}

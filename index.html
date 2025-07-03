@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Document</title>
+    <title>Qr code component</title>
     <link href="./styles/index.css" rel="stylesheet">
     <link href="./styles/utilities.css" rel="stylesheet">
     <link href="./styles/qr-component.css" rel="stylesheet">
 </head>
 <body>
 <main class="main__centered-children bg-main">
+    <h1>Qr code component</h1>
     <article aria-describedby="qr-description" aria-labelledby="qr-title" class="qr-code-component bg-white">
-        <img alt="QR code to visit Frontend Mentor site"
-             src="./public/image-qr-code.png"/>
-        <div class="qr-code-component__text-wrapper">
-            <h1 id="qr-title">Improve your front-end skills by building projects</h1>
-            <p id="qr-description">Scan the QR code to visit Frontend Mentor and take your coding Skills to the next
-                level</p>
-        </div>
+        <a class="plain-link" href="#">
+            <img alt="QR code to visit Frontend Mentor site"
+                 src="./public/image-qr-code.png"/>
+            <div class="qr-code-component__text-wrapper">
+                <h2 id="qr-title">Improve your front-end skills by building projects</h2>
+                <p id="qr-description">Scan the QR code to visit Frontend Mentor and take your coding Skills to the next
+                    level</p>
+            </div>
+        </a>
     </article>
 </main>
 </body>
